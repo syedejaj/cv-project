@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #117A65;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #626567;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid goldenrod;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F1C40F;
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+
+.header-contact p a {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    width: 100%;
+    border: solid black 3px;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#personal-section {}
+
+.right-div {
+    width: 70%;
+    float: left;
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.content {}
+
+.common-hr {
+    border: black solid 1px;
+    margin: 20px auto;
+}
+
+.bottom-footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-footer p {
+    color: white;
+    margin: 20px;
+}
+
+.edu-left-div {
+    width: 45%;
+    float: left;
+}
+
+.edu-right-div {
+    width: 45%;
+    float: left;
+}
